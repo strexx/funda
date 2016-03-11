@@ -25,7 +25,7 @@ Een oplossing hiervoor is het picture element met srcset gebruiken en de plaatje
 *Probleem*
 Zonder javascript werkt de Funda app niet, omdat de core draait op javascript. Het is natuurlijk het mooist om een oplossing te bieden voor mensen die geen javascript aan hebben. Dit ook omdat websites die gemaakt zijn voor organisaties of instanties zoals de gemeente of de overheid verplichte eisen hebben, omdat je de wet kan overtreden vanwege discriminatie.
 
-![test](12features/Javscript (volledig)/noscript.png)
+![test](12features/Javscript%20(volledig)/noscript.png)
 
 *Oplossing*
 Een oplossing hiervoor is de applicatie ombouwen en content niet genereren door middel van javascript, maar statische html pagina’s. Een andere oplossing is te kijken naar feature detection met Modernizr. Zo kun je fallbacks maken voor bijvoorbeeld history states. Mijn tijdelijke oplossing hiervoor is een <noscript> toevoegen aan mijn Funda app, waarin ik de eindgebruiker aanraad om Javascript aan te zetten bij gebruik. Dit is niet de oplossing waar je naartoe wil, maar zo los ik het momenteel op.
