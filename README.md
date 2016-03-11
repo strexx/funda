@@ -16,6 +16,6 @@ Een oplossing hiervoor is het picture element met srcset gebruiken en de plaatje
 
 ![test](12features/Afbeeldingen/img_alt.png)
 
-[Links](http://bitsofco.de/styling-broken-images/)
+*Links:* [http://bitsofco.de/styling-broken-images/](http://bitsofco.de/styling-broken-images/)
 
 
