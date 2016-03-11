@@ -48,7 +48,7 @@ Kleur speelt een grote rol op de functionaliteit en het design van een website. 
 
 Kleur speelt een grote rol op de functionaliteit en het design van een website. Je kunt er veel mee nuanceren. Maar het wordt lastiger als je bezoekers op je website hebt die kleuren niet (goed) kunnen zien. Daarom moet je als ontwerper rekening houden met deze doelgroep.
 
-![test](12features/Kleur/color_before.png)![test](12features/Kleur/color_after.png)
+(12features/Kleur/color_before.png)(12features/Kleur/color_after.png)
 
 
 ### 5. Breedband internet
