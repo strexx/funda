@@ -81,7 +81,12 @@ Localstorage is handig voor het opslaan van data in client-side applicaties. Loc
 
 **Oplossing**
 
-Het probleem kan opgelost worden met een library die data op verschillende manieren opslaat. PersistJS (https://github.com/jeremydurham/persist-js) ondersteund verschillende soorten client-side storage zoals flash, cookies, localstorage, gears en is forward en backward compatible.
+Het probleem kan opgelost worden met een library die data persistent op verschillende manieren client-side opslaat. PersistJS (https://github.com/jeremydurham/persist-js) ondersteund verschillende soorten client-side storage zoals flash, cookies, localstorage, gears en is forward en backward compatible.
+
+PersistJS is:
+1. Backwards compatible: Can fall back to flash or cookies if no client-side storage solution for the given browser is available.
+2. Forwards Compatible: Supports the upcoming versions of Internet Explorer, Firefox, Chrome, and Safari (Opera too, if you have Flash).
+3. Standalone: Does not need any additional browser plugins or JavaScript libraries to work on the vast majority of current browsers.
 
 ### ~~10. CDN's (nvt)~~
 
