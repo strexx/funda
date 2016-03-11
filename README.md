@@ -68,7 +68,16 @@ Wat ik zelf heb toegepast in mijn applicatie is het gebruiken van kleinere image
 
 ### ~~6. Cookies (nvt)~~
 
-### ~~7. Javascript deels - Wifi hotspots/HTTPS (nvt)~~
+### 7. Javascript deels - Wifi hotspots/HTTPS (nvt)
+
+**Probleem**
+
+Als je in een hotel bent en je gaat op de WiFi hotspot van het hotel loop je applicatie gevaar. Veel van deze hotspots
+zijn gevoelig voor javascript-injecties voor advertenties of andere kwaadaardige doeleinden.
+
+**Oplossing**
+
+Een oplossing hiervoor is het gebruik van een beveiligde HTTPS verbinding in plaats van een HTTP verbinding. Zo surf je veiliger op wifi hotspots.
 
 ### ~~8. Javascript deels - Content blockers (nvt)~~
 
