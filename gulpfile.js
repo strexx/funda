@@ -7,6 +7,8 @@ var gulp = require('gulp'),
     cssnano = require('gulp-cssnano'),
     webserver = require('gulp-webserver');
 
+// Concat/minify files with  gulp
+
 // Styles
 gulp.task('styles', function (cb) {
     gulp.src(['./static/css/style.css', './static/css/pull-refresh.css', './static/lib/genericons/genericons.css', './static/css/awesomplete.css'])
