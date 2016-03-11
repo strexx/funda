@@ -36,7 +36,7 @@ Een oplossing hiervoor is de applicatie ombouwen en content niet genereren door 
 
 **Links:** https://css-tricks.com/rethinking-dynamic-page-replacing-content/
 
-### 4. Kleur (nvt)
+### ~~4. Kleur (nvt)~~
 
 ### 5. Breedband internet
 
@@ -52,11 +52,11 @@ Wat ik zelf heb toegepast in mijn applicatie is het gebruiken van kleinere image
 
 ![test](12features/Breedband%20internet/Gulp-imageoptim.png)
 
-### 6. Cookies (nvt)
+### ~~6. Cookies (nvt)~~
 
-### 7. Javascript deels - Wifi hotspots/HTTPS (nvt)
+### ~~7. Javascript deels - Wifi hotspots/HTTPS (nvt)~~
 
-### 8. Javascript deels - Content blockers (nvt)
+### ~~8. Javascript deels - Content blockers (nvt)~~
 
 ### 9. localStorage
 
@@ -68,9 +68,9 @@ Localstorage is handig voor het opslaan van data in client-side applicaties. Loc
 
 Het probleem kan opgelost worden met een library die data op verschillende manieren opslaat. PersistJS (https://github.com/jeremydurham/persist-js) ondersteund verschillende soorten client-side storage zoals flash, cookies, localstorage, gears en is forward en backward compatible.
 
-### 10. CDN's (nvt)
+### ~~10. CDN's (nvt)~~
 
-### 11. Ad Blockers (nvt)
+### ~~11. Ad Blockers (nvt)~~
 
 ### 12. Muis/Trackpad
 
