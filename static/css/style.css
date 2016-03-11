@@ -179,7 +179,7 @@ main {
     overflow-x: hidden;
     vertical-align: top;
     text-overflow: ellipsis;
-    text-decoration: none;
+    text-decoration: underline;
     font-size: 0.9em;
 }
 
@@ -358,6 +358,7 @@ footer p {
     display: block;
     width: 100%;
     cursor: pointer;
+    text-decoration: underline;
 }
 
 .cbp-rfgrid li a img {
