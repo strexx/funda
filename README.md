@@ -68,7 +68,7 @@ Wat ik zelf heb toegepast in mijn applicatie is het gebruiken van kleinere image
 
 ### ~~6. Cookies (nvt)~~
 
-### 7. Javascript deels - Wifi hotspots/HTTPS (nvt)
+### 7. Javascript deels - Wifi hotspots/HTTPS
 
 **Probleem**
 
