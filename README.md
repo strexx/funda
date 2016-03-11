@@ -1,8 +1,8 @@
 # Funda
 
-## Opdracht: Bestudeer 12 features die het web kunnen breken en bedenk/verricht oplossingen die dit zouden op kunnen vangen.
+*Opdracht*: Bestudeer 12 features die het web kunnen breken en bedenk/verricht oplossingen die dit zouden op kunnen vangen.
 
-## Mijn bevindingen voor het vak Browser Technlogies.
+Mijn bevindingen voor het vak Browser Technlogies.
 
 ## Progressive Enhancement
 
