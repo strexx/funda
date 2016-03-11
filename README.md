@@ -6,7 +6,7 @@
 
 ### 1. Afbeeldingen
 
-*Probleem*
+**Probleem**
 Funda’s is een grote site met veel content. En nog meer plaatjes. Gelukkig gebruikt optimaliseert Funda zelf alle afbeeldingen al in verschillende resoluties en sizes (2x etc.). Deze staan ook in de API die we hebben gekregen om te gebruik voor onze app. Verder is het belangrijk om alt titles te hebben op je <img> tags, als vervanging voor als het plaatje niet laadt.
 
 ![test](12features/Afbeeldingen/img_srcset.png)
