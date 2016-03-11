@@ -34,10 +34,6 @@ header h1 a {
     margin-right: 1em;
 }
 
-nav {
-    margin: 2.050em 0 0 0;
-}
-
 nav ul {
     list-style: none;
     display: flex;
