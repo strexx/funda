@@ -20,7 +20,7 @@ Een oplossing hiervoor is het picture element met srcset gebruiken en de plaatje
 
 **Links:** http://bitsofco.de/styling-broken-images/
 
-### 2. Custom Fonts (nvt)
+###### 2. Custom Fonts (nvt)
 
 ### 3. Javascript (volledig)
 
@@ -36,7 +36,7 @@ Een oplossing hiervoor is de applicatie ombouwen en content niet genereren door 
 
 **Links:** https://css-tricks.com/rethinking-dynamic-page-replacing-content/
 
-### 4. Kleur (nvt)
+###### 4. Kleur (nvt)
 
 ### 5. Breedband internet
 
@@ -52,11 +52,11 @@ Wat ik zelf heb toegepast in mijn applicatie is het gebruiken van kleinere image
 
 ![test](12features/Breedband%20internet/Gulp-imageoptim.png)
 
-### 6. Cookies (nvt)
+###### 6. Cookies (nvt)
 
-### 7. Javascript deels - Wifi hotspots/HTTPS (nvt)
+###### 7. Javascript deels - Wifi hotspots/HTTPS (nvt)
 
-### 8. Javascript deels - Content blockers (nvt)
+###### 8. Javascript deels - Content blockers (nvt)
 
 ### 9. localStorage
 
@@ -65,11 +65,12 @@ Wat ik zelf heb toegepast in mijn applicatie is het gebruiken van kleinere image
 Localstorage is handig voor het opslaan van data in client-side applicaties. Localstorage is wel afhankelijk van javascript en zou dus ook moeten worden opgevangen met een vervangende storage. Daarnaast is het zo dat localstorage niet in alle browsers ondersteund wordt en dus ook niet voor ALLE gebruikers is.
 
 **Oplossing**
+
 Het probleem kan opgelost worden met een library die data op verschillende manieren opslaat. PersistJS (https://github.com/jeremydurham/persist-js) ondersteund verschillende soorten client-side storage zoals flash, cookies, localstorage, gears en is forward en backward compatible.
 
-### 10. CDN's (nvt)
+###### 10. CDN's (nvt)
 
-### 11. Ad Blockers (nvt)
+###### 11. Ad Blockers (nvt)
 
 ### 12. Muis/Trackpad
 
