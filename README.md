@@ -38,7 +38,18 @@ Een oplossing hiervoor is de applicatie ombouwen en content niet genereren door 
 
 **Links:** https://css-tricks.com/rethinking-dynamic-page-replacing-content/
 
-### ~~4. Kleur (nvt)~~
+### 4. Kleur
+
+**Probleem**
+
+Kleur speelt een grote rol op de functionaliteit en het design van een website. Je kunt er veel mee nuanceren. Maar het wordt lastiger als je bezoekers op je website hebt die kleuren niet (goed) kunnen zien. Daarom moet je als ontwerper rekening houden met deze doelgroep.
+
+**Oplossing**
+
+Kleur speelt een grote rol op de functionaliteit en het design van een website. Je kunt er veel mee nuanceren. Maar het wordt lastiger als je bezoekers op je website hebt die kleuren niet (goed) kunnen zien. Daarom moet je als ontwerper rekening houden met deze doelgroep.
+
+![test](12features/Kleur/color_before.png)  ![test](12features/Kleur/color_after.png)
+
 
 ### 5. Breedband internet
 ------------------------
