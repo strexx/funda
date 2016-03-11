@@ -5,6 +5,7 @@
 ## Progressive Enhancement
 
 ### 1. Afbeeldingen
+------------------------
 
 **Probleem**
 
