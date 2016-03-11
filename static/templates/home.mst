@@ -3,6 +3,7 @@
 <ul class="cbp-rfgrid">
 	{{#objects}}
 		<li>
+			<!-- Responsive images -->
 			<a href="#huis/{{ id }}">
 				<img
 				    data-sizes="auto"
