@@ -1,2 +1,2 @@
-# funda
+# Funda
 Mini weekproject voor Funda
