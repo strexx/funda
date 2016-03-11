@@ -24,6 +24,7 @@ Een oplossing hiervoor is het picture element met srcset gebruiken en de plaatje
 ### ~~2. Custom Fonts (nvt)~~
 
 ### 3. Javascript (volledig)
+------------------------
 
 **Probleem**
 
