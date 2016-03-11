@@ -1,0 +1,5 @@
+<div id="error" class="grow">Geen zoekresultaten gevonden</div>
+
+<div id="searchBox">
+	<input type="text" class="grow" id="search-box" name="search" placeholder="Zoek naar een boek">
+</div>

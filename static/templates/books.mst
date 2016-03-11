@@ -1,0 +1,11 @@
+<section id="books" class="grow">
+    {{#books}}
+    <div class="hovereffect">
+        <a href="#books/{{ id }}"><img src="{{ image }}" /></a>
+        <div class="overlay">
+            <h2>{{ author }}</h2>
+            <a class="info" href="#books/{{ id }}"> {{ title }}</a>
+        </div>
+    </div>
+    {{/books}}
+</section>

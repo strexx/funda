@@ -1,0 +1,20 @@
+<h2 class="headTitle">{{ headTitle }}</h2>
+
+<ul class="cbp-rfgrid">
+	{{#objects}}
+		<li>
+			<a href="#huis/{{ id }}">
+				<img
+				    data-sizes="auto"
+				    data-src="{{ foto }}"
+				    data-srcset="{{ fotoMedium }} 420w,
+				    {{ fotoLarge }} 1200w" class="lazyload" />
+			</a>
+			<div>
+				<a href="#huis/{{ id }}" class="object__address">{{ address }}</a>
+				<p class="object__postal">{{ postcode }} {{ city }}</p>
+				<h3 class="object__price">&euro; {{ price }} k.k.</h3>
+			</div>
+		</li>
+	{{/objects}}
+</ul>

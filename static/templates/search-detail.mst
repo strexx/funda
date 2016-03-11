@@ -1,0 +1,19 @@
+<div id="error" class="grow">Geen zoekresultaten gevonden</div>
+
+<input type="text" class="grow" id="search-box" placeholder="Zoek naar een boek" />
+
+<section id="book-detail" class="grow">
+    <header>
+        <h2>{{ book.title }}</h2>
+    </header>
+    <div class="book">
+        <li><img src="{{ book.image }}" /></li>
+        <li class="author"><b>Auteur:</b> {{ book.author }}</li>
+        <li class="price"><b>Prijs:</b> &euro; {{ book.price }}</li>
+        <li class="publisher"><b>Uitgever:</b> {{ book.publisher }}</li>
+        <li class="link"><b>Link:</b><a href="{{ book.link }}" target="_blank"> {{ book.link }}</a></li>
+        <li class="description"><b>Beschrijving:</b>
+            <br />
+            <br /> {{ book.description }}</li>
+    </div>
+</section>

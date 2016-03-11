@@ -1,0 +1,38 @@
+<section id="huis-detail">
+	<div class="content">
+		<div id="main-detail">
+		    <h2>{{ huis.Adres }}</h2>
+		    <span class="address">{{ huis.Postcode }} {{ huis.Plaats }}</span>
+		    <span class="price">&euro; {{ huis.Prijs.Koopprijs }}  k.k.</span>
+			<div class="gallery">
+				<div class="main-photo">
+					<img src="{{ huis.HoofdFoto }}" />
+				</div>	
+				<div>
+					<ul class="sub-photos">
+						<li><img src="{{ media.foto }}" /></li>
+						<li><img src="{{ media.foto2 }}" /></li>
+						<li><img src="{{ media.foto3 }}" /></li>
+						<li><img src="{{ media.foto4 }}" /></li>
+					</ul>
+				</div>
+			</div>
+
+		</div>
+		<!--
+		<div id="sub-detail">
+			<h3>Foto's</h3>
+			<div class="gallery">
+				<ul>
+					<li><img src="{{ media.foto }}" /></li>
+					<li><img src="{{ media.foto2 }}" /></li>
+					<li><img src="{{ media.foto3 }}" /></li>
+					<li><img src="{{ media.foto4 }}" /></li>
+				</ul>
+			</div>		
+		</div>
+		-->
+	</div>
+	<h3>Beschrijving</h3>
+	<p class="description">{{ huis.VolledigeOmschrijving }}</p>
+</section>

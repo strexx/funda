@@ -1,0 +1,10 @@
+<div class="modal" id="overlay" role="overlay">    
+    <button id="closeBtn" class="closeBtn" role="button">×</button>
+    <div class="modal-content lightbox">
+    	 <h2>Tip!</h2>
+    	 <div>
+	        <p>Op basis van uw zoekgeschiedenis hebben een we een aangepaste zoekopdracht gemaakt. Wilt u deze bekijken?</p>
+	        <button id="bekijkBtn" role="button">Bekijk aanbod</button>
+	     </div>
+    </div>
+</div>
