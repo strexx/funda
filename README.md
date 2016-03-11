@@ -41,6 +41,7 @@ Een oplossing hiervoor is de applicatie ombouwen en content niet genereren door 
 ### ~~4. Kleur (nvt)~~
 
 ### 5. Breedband internet
+------------------------
 
 **Probleem**
 
@@ -61,6 +62,7 @@ Wat ik zelf heb toegepast in mijn applicatie is het gebruiken van kleinere image
 ### ~~8. Javascript deels - Content blockers (nvt)~~
 
 ### 9. localStorage
+------------------------
 
 **Probleem**
 
@@ -75,6 +77,7 @@ Het probleem kan opgelost worden met een library die data op verschillende manie
 ### ~~11. Ad Blockers (nvt)~~
 
 ### 12. Muis/Trackpad
+------------------------
 
 **Probleem**
 
