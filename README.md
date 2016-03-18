@@ -11,11 +11,11 @@
 
 ### Verantwoordelijkheid
 
-Het is onze verantwoordelijkheid om hier door middel van progressive enhancement oplossingen voor te verzinnen, want niemand anders gaat dit voor je oplossen en je wilt natuurlijk niemand uitsluiten als bezoeker op je website. In de Funda app staan afbeeldingen centraal en is de grootste core feature. Je kunt afbeeldingen stuk laten gaan en er niks aan veranderen waardoor de gebruiker geen idee heeft wat er mis gaat en krijgt geen content te zien.
+Het is onze verantwoordelijkheid om hier door middel van progressive enhancement oplossingen voor te verzinnen, want niemand anders gaat dit voor je oplossen en je wilt natuurlijk niemand uitsluiten als bezoeker op je website.
 
 ### Fallback
 
-Als alternatief voor dit probleem heb ik de afbeeldingen een fallback plaatje gegeven, waar je de afbeelding ziet van een camera. Dit dient als placeholder, zodat de gebruiker weet dat hier eigenlijk een plaatje hoort te staan. Als extra optie heb ik de afbeelding nog een psuedo class :after gegeven waarin de oorspronkelijke url vandaan komt. De bezoeker kan dan kijken of de url echt niet bestaat.
+In de Funda app staan afbeeldingen centraal en is de grootste core feature. Je kunt afbeeldingen stuk laten gaan en er niks aan veranderen waardoor de gebruiker geen idee heeft wat er mis gaat en krijgt geen content te zien. Als alternatief voor dit probleem heb ik de afbeeldingen een fallback plaatje gegeven, waar je de afbeelding ziet van een camera. Dit dient als placeholder, zodat de gebruiker weet dat hier eigenlijk een plaatje hoort te staan. Als extra optie heb ik de afbeelding nog een psuedo class :after gegeven waarin de oorspronkelijke url vandaan komt. De bezoeker kan dan kijken of de url echt niet bestaat.
 
 #### Without fallback
 ![Without fallback](readme/nofallback.png)
