@@ -568,6 +568,27 @@ footer p {
     color: black;
 }
 
+/* Fallback images */
+
+.fallback {
+    /* this URL here is theoretically a local one (always reachable) */
+    background-image: url("../images/missing.png");
+    /*display: inline-block;*/
+    width: 100%;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-height: 450px; 
+    margin: 0;
+}
+
+.cc_image {
+    min-height: 296px;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+} 
+
 /* MEDIA QUERIES */
 
 @media screen and (min-width: 50em) {
@@ -597,6 +618,7 @@ footer p {
         /* Fallback */
         width: -webkit-calc(100% / 3);
         width: calc(100% / 3);
+        max-height: 420px;
     }
     #huis-detail .content {
         display: flex;

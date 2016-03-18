@@ -2,15 +2,16 @@
 
 <ul class="cbp-rfgrid">
 	{{#objects}}
-		<li>
-			<!-- Responsive images -->
+		<li>					
 			<a href="#huis/{{ id }}">
-				<img
-				    data-sizes="auto"
-				    data-src="{{ foto }}"
-				    data-srcset="{{ fotoMedium }} 420w,
-				    {{ fotoLarge }} 1200w" class="lazyload" />
-			</a>
+			    <figure class="fallback">
+			    	<img class="cc_image lazyload" 
+			    		 title="{{ address }}"  data-sizes="auto"
+				    	 data-src="{{ foto }}"
+				    	 data-srcset="{{ fotoMedium }} 420w,
+				    	 {{ fotoLarge }} 1200w" />
+			    </figure>
+			</a>			
 			<div>
 				<a href="#huis/{{ id }}" class="object__address">{{ address }}</a>
 				<p class="object__postal">{{ postcode }} {{ city }}</p>
