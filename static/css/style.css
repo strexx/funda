@@ -587,7 +587,13 @@ footer p {
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
-} 
+}
+
+.cc_image:after {
+    content: "(url: " attr(data-src) ")";
+    display: block;
+    font-size: 1em;
+}
 
 /* MEDIA QUERIES */
 
