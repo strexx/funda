@@ -54,10 +54,11 @@ APP.render = (function() {
             APP.get.data(_url)
                 .then(response => {
 
-                    localStorage.setItem('data', response);
+                    //localStorage.setItem('data', response);
 
                     // Data to json
-                    var data = APP.get.localData();
+                    //var data = APP.get.localData();
+                    var data = JSON.parse(response);
 
                     // Loop through dataset
                     data.Objects.forEach(function(object) {
