@@ -48,8 +48,25 @@ APP.get = (function () {
     };
 
 	function localData() {
-		return JSON.parse(localStorage.getItem('data')); 	
-	};
+        
+        if (typeof localStorage !== 'undefined') {
+            try {
+                localStorage.setItem('feature_test', 'yes');
+                if (localStorage.getItem('feature_test') === 'yes') {
+                    localStorage.removeItem('feature_test');
+                    return JSON.parse(localStorage.getItem('data'));
+                    // localStorage is enabled
+                } else {
+                    // localStorage is disabled
+                }
+            } catch(e) {
+                // localStorage is disabled
+            }
+        } else {
+            // localStorage is not available
+        }
+    };
+
 
 	return {
         data: data,
